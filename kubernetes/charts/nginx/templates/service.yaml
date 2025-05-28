@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "nginx.fullname" . }}
+  name: nginx
   labels:
     app: {{ include "nginx.name" . }}
     chart: {{ include "nginx.chart" . }}
