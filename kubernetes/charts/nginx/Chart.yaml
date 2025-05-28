@@ -1,0 +1,7 @@
+---
+apiVersion: v2
+name: nginx
+description: A Helm chart for NGINX
+type: application
+version: 1.0.0
+appVersion: 1.28.0-alpine
