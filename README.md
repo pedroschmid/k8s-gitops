@@ -57,9 +57,6 @@ $ chmod +x scripts/setup.sh
 $ bash scripts/setup.sh
 ```
 
-<img src=".misc/setupsh.png" alt="GitOps Architecture" heigth="422" width="846" />
-
-
 After the setup, you can access the ArgoCD UI at `http://localhost:8080`.
 
 ---
@@ -83,8 +80,6 @@ To destroy the local environment and clean up all resources, use:
 $ chmod +x scripts/cleanup.sh
 $ bash scripts/cleanup.sh
 ```
-
-<img src=".misc/cleanupsh.png" alt="GitOps Architecture" heigth="256" width="846" />
 
 This will delete:
 
